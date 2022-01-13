@@ -1,0 +1,41 @@
+.sms__grid-container_groupB {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.sms__grid-container {
+  display: flex;
+  justify-content: center;
+}
+.sms__grid-heading h1 {
+  font-size: 62px;
+  line-height: 75px;
+  font-family: var(--font-family);
+  font-weight: 800;
+  text-align: center;
+}
+.sms__grid-heading p {
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+  .sms__grid-heading h1 {
+    font-size: 46px;
+    line-height: 52px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .sms__grid-heading h1 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+}
